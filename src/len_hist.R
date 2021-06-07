@@ -1,15 +1,11 @@
-library(ggplot2)
-library(dplyr)
-library(tidyr)   # replace_na
-library(tibble)  # column_to_rownames
+setwd('C:/Users/User/Desktop/Bioinformatics/H3K4me3_ES_E14/')
+source('lib.R')
 
 ###
 
-DATA_DIR <- 'C:/Users/User/Desktop/Bioinformatics/H3K4me3_ES_E14/data/'
-OUT_DIR <- 'C:/Users/User/Desktop/Bioinformatics/H3K4me3_ES_E14/images'
-
 #NAME <- 'H3K4me3_ES_E14.ENCFF993IIG.mm10'
 #NAME <- 'H3K4me3_ES_E14.ENCFF899LDH.mm10'
+NAME <- 'mouseZ-DNA1'
 
 ###
 
