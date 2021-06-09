@@ -86,6 +86,15 @@ chr1:4,491,779-4,493,869
 ### Ассоциация пересечений с генами
 
 Количество пиков, которые удалось проассоциировать: 1125
+
 Количество уникальных генов: 1088
 
 ### GO анализ
+
+Общая информация
+
+![alt text](https://github.com/namikhnenko/hse21_H3K4me3_ZDNA_mouse/blob/main/images/go_summary.jpg)
+
+Наиболее важные категории
+
+![alt text](https://github.com/namikhnenko/hse21_H3K4me3_ZDNA_mouse/blob/main/images/go_analiysis.png)
