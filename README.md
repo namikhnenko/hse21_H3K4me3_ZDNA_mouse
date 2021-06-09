@@ -49,5 +49,26 @@ Genome version: mm10
 
 ![alt text](https://github.com/namikhnenko/hse21_H3K4me3_ZDNA_mouse/blob/main/images/source_merge.png)
 
-## Анализ вторичной структуры ДНК
+## Анализ вторичной структуры ДНК 
 
+Структура - ZDNA_mouse_1
+
+### Распределение длин участков
+
+![alt text](https://github.com/namikhnenko/hse21_H3K4me3_ZDNA_mouse/blob/main/images/len_hist.mouseZ-DNA1.pdf.png-1.png)
+
+### Расположение пиков относительно аннотированных генов
+
+![alt text](https://github.com/namikhnenko/hse21_H3K4me3_ZDNA_mouse/blob/main/images/chip_seeker.mouseZ-DNA1.annopie.pdf.png-1.png)
+
+## Анализ пересечения гистоновой метки и структуры ДНК
+
+### Распределение длин участков
+
+![alt text](https://github.com/namikhnenko/hse21_H3K4me3_ZDNA_mouse/blob/main/images/len_hist.H3K4me3_ES_E14.intersect_with_ZDNA.pdf.png-1.png)
+
+### Расположение пиков относительно аннотированных генов
+
+![alt text](https://github.com/namikhnenko/hse21_H3K4me3_ZDNA_mouse/blob/main/images/chip_seeker.H3K4me3_ES_E14.intersect_with_ZDNA.annopie.pdf.png-1.png)
+
+### Визуализация исходных участков ДНК и пересечения с гистоновой меткой
