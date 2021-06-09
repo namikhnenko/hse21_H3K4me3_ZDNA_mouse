@@ -72,3 +72,13 @@ Genome version: mm10
 ![alt text](https://github.com/namikhnenko/hse21_H3K4me3_ZDNA_mouse/blob/main/images/chip_seeker.H3K4me3_ES_E14.intersect_with_ZDNA.annopie.pdf.png-1.png)
 
 ### Визуализация исходных участков ДНК и пересечения с гистоновой меткой
+
+Ссылка на сохраненную сессию: http://genome.ucsc.edu/s/namikhnenko/H3K4me3_ZDNA_ES_E14
+
+chr1:3,670,546-3,671,504
+
+![alt text](https://github.com/namikhnenko/hse21_H3K4me3_ZDNA_mouse/blob/main/images/inter3.png)
+
+chr1:4,491,779-4,493,869
+
+![alt text](https://github.com/namikhnenko/hse21_H3K4me3_ZDNA_mouse/blob/main/images/inter4.png)
