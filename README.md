@@ -46,3 +46,8 @@ Genome version: mm10
 ![alt text](https://github.com/namikhnenko/hse21_H3K4me3_ZDNA_mouse/blob/main/images/chip_seeker.H3K4me3_ES_E14.ENCFF899LDH.mm10.filtered.annopie.pdf.png-1.png)
 
 ### Визуализация пиков и их объединения
+
+![alt text](https://github.com/namikhnenko/hse21_H3K4me3_ZDNA_mouse/blob/main/images/source_merge.png)
+
+## Анализ вторичной структуры ДНК
+
