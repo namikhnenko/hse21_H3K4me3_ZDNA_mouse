@@ -98,3 +98,31 @@ chr1:4,491,779-4,493,869
 Наиболее важные категории
 
 ![alt text](https://github.com/namikhnenko/hse21_H3K4me3_ZDNA_mouse/blob/main/images/go_analiysis.png)
+
+# Команды
+
+Получение данных:
+
+wget https://www.encodeproject.org/files/ENCFF993IIG/@@download/ENCFF993IIG.bed.gz
+    
+wget https://www.encodeproject.org/files/ENCFF899LDH/@@download/ENCFF899LDH.bed.gz
+
+Разархивация:
+    
+gzip -d ENCFF899LDH.bed.gz 
+
+gzip -d ENCFF993IIG.bed.gz 
+
+Нужные колонки:
+
+cat ENCFF899LDH.bed | cut -f1-5 > H3K4me3_ES_E14.ENCFF899LDH.mm10.bed
+
+cat ENCFF993IIG.bed | cut -f1-5 > H3K4me3_ES_E14.ENCFF993IIG.mm10.bed
+
+Приведение к версии mm9 (для тренировки)
+    
+wget https://hgdownload.cse.ucsc.edu/goldenpath/mm10/liftOver/mm10ToMm9.over.chain.gz
+    
+liftOver H3K4me3_ES_E14.ENCFF899LDH.mm10.bed mm10ToMm9.over.chain.gz H3K4me3_ES_E14.ENCFF899LDH.mm9.bed H3K4me3_ES_E14.ENCFF899LDH.unmapped.bed
+    
+liftOver H3K4me3_ES_E14.ENCFF993IIG.mm10.bed mm10ToMm9.over.chain.gz H3K4me3_ES_E14.ENCFF993IIG.mm9.bed H3K4me3_ES_E14.ENCFF993IIG.unmapped.bed
