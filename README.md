@@ -126,3 +126,17 @@ wget https://hgdownload.cse.ucsc.edu/goldenpath/mm10/liftOver/mm10ToMm9.over.cha
 liftOver H3K4me3_ES_E14.ENCFF899LDH.mm10.bed mm10ToMm9.over.chain.gz H3K4me3_ES_E14.ENCFF899LDH.mm9.bed H3K4me3_ES_E14.ENCFF899LDH.unmapped.bed
     
 liftOver H3K4me3_ES_E14.ENCFF993IIG.mm10.bed mm10ToMm9.over.chain.gz H3K4me3_ES_E14.ENCFF993IIG.mm9.bed H3K4me3_ES_E14.ENCFF993IIG.unmapped.bed
+
+Код для получения длин участков и фильтрации см src
+
+Объединение экспериментальных данных:
+
+cat  *.filtered.bed  |   sort -k1,1 -k2,2n   |   bedtools merge   >  H3K4me3_ES_E14.merge.mm10.bed
+
+Пересечение данных с структурой ДНК:
+
+bedtools intersect  -a fixed_mouseZ_DNA.bed   -b  H3K4me3_ES_E14.merge.mm10.bed  >  H3K4me3_ES_E14.intersect_with_ZDNA.bed
+
+Код ассоцииация пересечений с ближайшими генами см src
+
+Сайт для проведения GO-анализа: http://pantherdb.org/
